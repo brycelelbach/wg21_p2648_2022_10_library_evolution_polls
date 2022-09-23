@@ -1,0 +1,171 @@
+<pre class='metadata'>
+Title: 2022-10 Library Evolution Polls
+Shortname: D2648
+Revision: 1
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+URL: https://wg21.link/P2648
+!Source: <a href="https://github.com/brycelelbach/wg21_p2648_2022_10_library_evolution_polls/blob/main/2022_10_library_evolution_polls.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2648_2022_10_library_evolution_polls/issues
+Metadata Order: Editor, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+Default Biblio Display: direct
+</pre>
+
+# Introduction # {#introduction}
+
+This paper contains the decision polls that the C++ Library Evolution group
+  will take in 2022-10.
+
+# Voting # {#voting}
+
+These decision polls will be conducted electronically; see [[P2195R2]] for
+  more information on electronic voting procedures.
+
+All committee members may vote, but if you have not participated in the Library
+  Evolution discussions of a poll, please choose to not vote.
+
+## How to Vote ## {#how-to-vote}
+
+<b><a href="TODO">Vote here (C++23 polls).</a></b>
+
+<b><a href="TODO">Vote here (C++26 and Technical Specification polls).</a></b>
+
+A documents.isocpp.org account is necessary to vote.
+If you have an isocpp.org/papers account, a documents.isocpp.org account has
+  been created for you.
+Just go to documents.isocpp.org and reset your password.
+Email <a href="mailto:brycelelbach@gmail.com">Bryce Adelstein Lelbach</a> if you
+  do not have an account or are having trouble accessing your account.
+
+If you see "Form not found" when you go to the above link, you are not signed
+  in to documents.isocpp.org.
+Go to documents.isocpp.org and sign in first.
+
+You will not receive a confirmation email after voting.
+The Library Evolution chairs will send a confirmation to all voters before the
+  close of the poll.
+
+If you need to change how you voted or have any questions or issues about
+  voting, please email
+  <a href="mailto:brycelelbach@gmail.com">Bryce Adelstein Lelbach</a>.
+
+## Voting Timeline ## {#voting-timeline}
+
+- 2022-09-23: Draft polls distributed by mailing list.
+- 2022-09-27: Final Library Evolution discussion telecon on the polls.
+- 2022-09-30: Start of the polling period.
+- 2022-10-25: End of the polling period.
+- 2022-10-28: Chairs share results and summarize outcomes.
+
+# Poll Structure # {#poll-structure}
+
+Each poll consists of a statement; you vote on whether you support the
+  statement.
+All polls will be 5-way polls; you'll vote either "strongly favor",
+  "weakly favor", "neutral", "weakly against", or "strongly against".
+
+Polls phrased as "Return X" indicate that the paper was sent to Library Working
+  Group in the past, and Libary Working Group returned it to us with
+  questions.
+Polls phrased as "Send X" indicate that the paper has not previously been sent
+  to Library Working Group.
+
+All committee members may vote, but if you have not participated in the
+  Library Evolution discussions of a poll (in-person, over telecon, or
+  over email), please consider whether you sufficiently understand the
+  topic to be able to vote in an informed manner.
+If you do not, please choose to not participate in the poll.
+
+If you do not want to participate in a poll, select the "I do not want to
+  participate in this poll" option.
+Those who do not participate in a poll will not be counted or recorded.
+Voting neutral is not the same as choosing to not participate; please
+  don't vote neutral if you did not participate in the discussions of
+  the poll.
+
+Each poll has a comment field.
+Please write a few sentences explaining the rationale for your vote.
+We recommend drafting your comments in a text editor and then pasting them
+  into the polling system.
+
+Poll results and selected comments will be shared with Library Evolution after
+  the end of the polling period, including attribution of your votes and
+  comments.
+
+If you want to discuss the polls or how you plan on voting, please start an
+  email thread on the
+  <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
+
+You will not receive a confirmation email after voting.
+
+If you need to see how you voted, change how you voted, or have any questions
+  or issues about voting, please contact the Library Evolution chair.
+
+## C++23 Polls ## {#polls-cpp23}
+
+TBD
+
+## C++26 and Technical Specification Polls ## {#polls-cpp26-and-ts}
+
+## [[P1083R6]] `resource_adaptor`
+
+Return
+  [[P1083R6]] `resource_adaptor`
+  to Library Working Group for C++26,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+
+## [[P2587R3]] `to_string` Or Not `to_string`
+
+Send
+  [[P2587R3]] `to_string` Or Not `to_string`
+  to Library Working Group for C++26,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+## [[P2495R1]] Interfacing `stringstream`s With `string_view`
+
+Send
+  [[P2495R1]] Interfacing `stringstream`s With `string_view`
+  to Library Working Group for C++26,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+
+## [[P2510R3]] Formatting Pointers
+
+Send
+  [[P2510R3]] Formatting Pointers
+  to Library Working Group for C++26,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+
+## [[P2572R0]] `std::format` Fill Character Allowances
+
+Send
+  [[P2572R0]] `std::format` Fill Character Allowances
+  to Library Working Group for C++26,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+## [[P2511R2]] Beyond `operator()`: NTTP Callables In Type-Erased Call Wrappers
+
+Send
+  [[P2511R2]] Beyond `operator()`: NTTP Callables In Type-Erased Call Wrappers
+  to Library Working Group for C++26,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+
+## [[P0543R2]] Saturation Arithmetic
+
+Send
+  [[P0543R2]] Saturation Arithmetic
+  to Library Working Group for C++26,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+
+## [[P0870R4]] `is_convertible_without_narrowing`
+
+Send
+  [[P0870R4]] `is_convertible_without_narrowing`
+  to Library Working Group for C++26,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+
