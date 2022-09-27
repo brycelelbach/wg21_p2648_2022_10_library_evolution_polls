@@ -32,9 +32,9 @@ All committee members may vote, but if you have not participated in the Library
 
 ## How to Vote ## {#how-to-vote}
 
-<b><a href="TODO">Vote here (C++23 polls).</a></b>
+<b><a href="https://documents.isocpp.org/index.php/apps/forms/koTQFmHxFR2mMXSn">Vote here (C++23 polls).</a></b>
 
-<b><a href="TODO">Vote here (C++26 and Technical Specification polls).</a></b>
+<b><a href="https://documents.isocpp.org/index.php/apps/forms/mTzroA3tdTQxsoaX">Vote here (C++26 and Technical Specification polls).</a></b>
 
 A documents.isocpp.org account is necessary to vote.
 If you have an isocpp.org/papers account, a documents.isocpp.org account has
