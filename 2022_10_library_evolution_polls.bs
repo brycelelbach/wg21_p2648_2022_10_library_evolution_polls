@@ -109,63 +109,130 @@ If you need to see how you voted, change how you voted, or have any questions
 
 ## C++23 Polls ## {#polls-cpp23}
 
-TBD
+### [[P2539R3]] `print` To Terminal Synchronization
+
+Return
+  [[P2539R3]] `print` To Terminal Synchronization
+  to Library Working Group for C++23,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+### [[LWG3515]] [stacktrace.basic.nonmem]: `operator<<` Should Be Less Templatized
+
+Send
+  the proposed resolution to
+  [[LWG3515]] [stacktrace.basic.nonmem]: `operator<<` Should Be Less Templatized
+  to Library Working Group for C++23,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
 ## C++26 and Technical Specification Polls ## {#polls-cpp26-and-ts}
 
-## [[P1083R6]] `resource_adaptor`
+### [[P2631R0]] Publish The Library Fundamentals v3 Technical Specification Now
+
+Publish the Library Fundamentals v3 Technical Specification now as per
+  [[P2631R0]].
+
+### Don't Publish The Library Fundamentals v3 Technical Specification
+
+Don't publish the Library Fundamentals v3 Technical Specification, but evaluate
+  its contents for inclusion into a future International Standard.
+
+### [[P1083R6]] `resource_adaptor`
 
 Return
   [[P1083R6]] `resource_adaptor`
   to Library Working Group for C++26,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## [[P2587R3]] `to_string` Or Not `to_string`
+### [[P2587R3]] `to_string` Or Not `to_string`
 
 Send
   [[P2587R3]] `to_string` Or Not `to_string`
   to Library Working Group for C++26,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
-## [[P2495R1]] Interfacing `stringstream`s With `string_view`
+### [[P2495R1]] Interfacing `stringstream`s With `string_view`
 
 Send
   [[P2495R1]] Interfacing `stringstream`s With `string_view`
   to Library Working Group for C++26,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## [[P2510R3]] Formatting Pointers
+### [[P2510R3]] Formatting Pointers
 
 Send
   [[P2510R3]] Formatting Pointers
   to Library Working Group for C++26,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## [[P2572R0]] `std::format` Fill Character Allowances
+### [[P2572R0]] `std::format` Fill Character Allowances
 
 Send
   [[P2572R0]] `std::format` Fill Character Allowances
   to Library Working Group for C++26,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
-## [[P2511R2]] Beyond `operator()`: NTTP Callables In Type-Erased Call Wrappers
+### [[P2511R2]] Beyond `operator()`: NTTP Callables In Type-Erased Call Wrappers
 
 Send
   [[P2511R2]] Beyond `operator()`: NTTP Callables In Type-Erased Call Wrappers
   to Library Working Group for C++26,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## [[P0543R2]] Saturation Arithmetic
+### [[P2592R2]] Hashing Support For `chrono` Value Classes
+
+Send
+  [[P2592R2]] Hashing Support For `chrono` Value Classes
+  to Library Working Group for C++26,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+### [[P0543R2]] Saturation Arithmetic
 
 Send
   [[P0543R2]] Saturation Arithmetic
   to Library Working Group for C++26,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## [[P0870R4]] `is_convertible_without_narrowing`
+### [[P0870R4]] `is_convertible_without_narrowing`
 
 Send
   [[P0870R4]] `is_convertible_without_narrowing`
   to Library Working Group for C++26,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
+### [[P2614R1]] Deprecate `numeric_limits::has_denorm`
+
+Send
+  [[P2614R1]] Deprecate `numeric_limits::has_denorm`
+  to Library Working Group for C++26,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+
+
+<pre class=biblio>
+{
+  "P2539R3": {
+    "title": "Should the output of std::print to a terminal be synchronized with the underlying stream?",
+    "authors": [
+      "Victor Zverovich"
+    ],
+    "href": "https://wg21.link/P2539R3",
+    "date": "2022-09-27"
+  },
+  "P2592R2": {
+    "title": "Hashing support for std::chrono value classes",
+    "authors": [
+      "Giuseppe D'Angelo"
+    ],
+    "href": "https://wg21.link/P2592R2",
+    "date": "2022-09-26"
+  },
+  "P2614R1": {
+    "title": "Deprecate numeric_limits::has_denorm",
+    "authors": [
+      "Matthias Kretz"
+    ],
+    "href": "https://wg21.link/P2614R1",
+    "date": "2022-09-27"
+  }
+}
+</pre>
