@@ -1,7 +1,7 @@
 <pre class='metadata'>
 Title: 2022-10 Library Evolution Polls
 Shortname: D2648
-Revision: 1
+Revision: 0
 Status: D
 Group: WG21
 Audience: WG21
