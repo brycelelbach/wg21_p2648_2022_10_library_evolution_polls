@@ -59,7 +59,7 @@ If you need to change how you voted or have any questions or issues about
 
 - 2022-09-23: Draft polls distributed by mailing list.
 - 2022-09-27: Final Library Evolution discussion telecon on the polls.
-- 2022-09-30: Start of the polling period.
+- 2022-09-27: Start of the polling period.
 - 2022-10-25: End of the polling period.
 - 2022-10-28: Chairs share results and summarize outcomes.
 
