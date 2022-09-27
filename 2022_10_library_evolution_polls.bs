@@ -2,7 +2,7 @@
 Title: 2022-10 Library Evolution Polls
 Shortname: D2648
 Revision: 0
-Status: D
+Status: P
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
